@@ -1,0 +1,13 @@
+<h1>Υπολογιστής Μέσου Όρου</h1>
+
+<div id="grades-container">
+    <input type="number" class="grade" placeholder="Βαθμός 1" step="0.1">
+    <input type="number" class="grade" placeholder="Βαθμός 2" step="0.1">
+</div>
+<br>
+<button onclick="addGrade()">Πρόσθεσε Βαθμό</button>
+<button onclick="removeGrade()">Αφαίρεσε Βαθμό</button>
+<button onclick="calculateAverage()">Υπολόγισε Μέσο Όρο</button>
+
+<h2 id="result"></h2>
+<p id="message"></p>
